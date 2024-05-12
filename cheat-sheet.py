@@ -1,3 +1,9 @@
+'''
+Next to dos are:
+- automate the creation of this by pulling from research + summarize prompt 
+- update with source: udemy prompt engineering latest
+'''
+
 import streamlit as st
 import re
 
@@ -162,4 +168,4 @@ st.text(f'Sources: {my_string}')
 
 
 my_questions = ', '.join(['Go through the papers to see what foundation models are these methodologies tested on? Are all foundational models created equal? We might have to use the foundational model the paper used'])
-st.text(f'Sources: {my_questions}')
+st.text(f'Notes: {my_questions}')
