@@ -12,7 +12,7 @@ HEIGHT=350
 
 col1, col2, col3, col4, col5= st.columns(5)
 
-blog_list = [
+blog_list = ['https://arxiv.org/',
            'https://blog.langchain.dev/graph-based-metadata-filtering-for-improving-vector-search-in-rag-applications/', 
            'https://aman.ai/',
            'https://www.andrewng.org/about/', 
@@ -40,7 +40,6 @@ def create_iframe(list_index):
                 </p>""",
                 unsafe_allow_html=True)
     st.markdown("#")
-
 
 with col1:
     for idx in range(0, len(blog_list), 5):
