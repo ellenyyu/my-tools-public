@@ -30,7 +30,9 @@ blog_list = ['https://arxiv.org/',
            'https://www.youtube.com/@AI-Makerspace',
            'https://www.youtube.com/@codebasics',
            'https://streamlit.io/gallery?category=nlp-language',
-            'https://www.llamaindex.ai/blog',
+           'https://www.llamaindex.ai/blog',
+           'https://talkpython.fm/episodes/show/436/an-unbiased-evaluation-of-environment-and-packaging-tools', 
+           'https://www.latent.space/podcast',
             ]
 
 def create_iframe(list_index):
