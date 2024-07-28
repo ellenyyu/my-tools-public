@@ -95,8 +95,10 @@ with query:
 
 
 with result:
-    retriever = vector_store.as_retriever()
-
-    st.markdown(add_line_breaks(retriever.invoke(query)[0].page_content))
+    try:
+        retriever = vector_store.as_retriever()
+        st.markdown(add_line_breaks(retriever.invoke(query)[0].page_content))
+    except: 
+        pass
 
 
