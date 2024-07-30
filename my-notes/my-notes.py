@@ -73,6 +73,7 @@ if len(new_note) > 1:
 try:
     with open(NOTES_FILEPATH, 'r') as file:
         my_notes = json.load(file)
+        st.write(my_notes)
 except:
     st.warning("""You don't have any notes in your database!""")
 
