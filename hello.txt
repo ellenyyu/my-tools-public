@@ -1,3 +1,4 @@
 {"key3": "value1", "key4": "value2"}
 This is the new content of the file.
 This is the new content of the file.
+This is the new content of the file.
